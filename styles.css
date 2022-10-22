@@ -1,21 +1,51 @@
 body{
-
+    display: flex;
+    flex-direction: column;
+}
+.header,
+.top,
+.footer{
+    background-color: #1f2937;
+    color: #F9FAF8;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
 }
 .header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 24px;
+    justify-content: space-between;
 
 }
+.logo{
+    display: flex;
+    gap: 36px;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.links {
+    margin-left: auto;
+}
 .top{
+    display: flex;
 
 }
 .info{
+    display: flex;
 
 }
 .quote{
 
 }
 .sign-in{
+    display: flex;
 
 }
 .footer{
-    
+
 }
