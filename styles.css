@@ -54,7 +54,25 @@ ul{
 }
 .info{
     display: flex;
-
+    flex-direction: column;
+    align-items: center;
+    background-color: #4F9292; 
+    color: #F9FAF8;
+    padding-bottom: 30px;
+}
+.info-container{
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    gap: 20px;
+}
+.info-pictures{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pic{
+    border-radius: 25px;
 }
 .quote{
 
