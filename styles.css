@@ -42,8 +42,10 @@ ul{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     padding: 50px;
     gap: 50px;
+    min-width:680px;
 }
 .top-left{
     height:300px;
@@ -65,7 +67,7 @@ ul{
     display: flex;
     flex-wrap: wrap;
     max-width: 1200px;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 20px;
 }
 .info-pictures{
@@ -100,5 +102,5 @@ ul{
 
 }
 .footer{
-
+ 
 }
