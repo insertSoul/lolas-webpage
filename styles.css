@@ -75,7 +75,21 @@ ul{
     border-radius: 25px;
 }
 .quote{
-
+    background-color: #E7DED9;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: light;
+    color: #191310;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 140px;
+    gap: 16px;
+}
+.author{
+    align-self: flex-end;
+    font-style: normal;
+    font-size: 22px;
+    font-weight: bold;
 }
 .sign-in{
     display: flex;
