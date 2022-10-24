@@ -128,5 +128,10 @@ ul{
 }
 
 .footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 24px 0;
+    color: #cabbb3;
  
 }
