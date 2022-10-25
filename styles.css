@@ -12,6 +12,17 @@ h2{
 p{
     margin: 0px;
 }
+a{
+    text-decoration: none;
+    color: #F9FAF8;
+    padding: 16px;
+}
+a:hover{
+    background-color: #4F9292;
+    color: #1f2937;
+    padding: 16px;
+    border-radius: 25px;
+}
 .header,
 .top,
 .footer{
@@ -40,6 +51,8 @@ ul{
 }
 .links {
     margin-left: auto;
+    display: flex;
+    gap:20px
 }
 .top{
     display: flex;
