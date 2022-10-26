@@ -2,6 +2,7 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0px;
+    font-family:"Neue Helvetica", Arial, serif;
 }
 h1{
     margin:0px;
@@ -26,9 +27,15 @@ a:hover{
 button{
     padding: 14px;
     flex: 0 0 auto;
-    background-color: #066020;
+    background-color: #0a90ae;
     color: #1f2937;
     font-weight: bold;
+    border-radius: 10px;
+}
+.button-2{
+    background-color: #1f2937;
+    color: #066020;
+    padding: 14px 20px;
 }
 .header,
 .top,
@@ -137,12 +144,18 @@ ul{
     gap: 40px;
 }
 .sign-in-text{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
     color: #F9FAF8;
     margin: 10px 40px;
-    
+}
+.sign-in-heading{
+    margin-left: 0px;
 }
 .sign-in-button{
-    padding: 30px
+    padding: 30px;
+    flex: 0 0 auto;
 
 }
 
