@@ -165,5 +165,9 @@ ul{
     background-color: #1f2937;
     padding: 24px 0;
     color: #cabbb3;
- 
+}
+.more-pics{
+    gap: 45px;
+    max-width: 1400px;
+
 }
