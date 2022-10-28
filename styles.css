@@ -12,6 +12,7 @@ h2{
 }
 p{
     margin: 0px;
+    color:#e6eefa
 }
 a{
     text-decoration: none;
@@ -40,9 +41,13 @@ button{
     border-radius: 10px;
 }
 .button-2{
-    background-color: #1f2937;
-    color: #066020;
+    background-color:#0a90ae;
+    color:#e6eefa;
     padding: 14px 20px;
+}
+button:hover{
+    background-color: #191310;
+    color: #e6eefa;
 }
 .header,
 .top,
