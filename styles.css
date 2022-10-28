@@ -17,12 +17,19 @@ a{
     text-decoration: none;
     color: #F9FAF8;
     padding: 16px;
+
+    margin: -2px;
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    border-radius: 25px;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 a:hover{
     background-color: #4F9292;
     color: #1f2937;
     padding: 16px;
     border-radius: 25px;
+
+    box-shadow: inset 100px 0 0 0 #54b3d6;
 }
 button{
     padding: 14px;
