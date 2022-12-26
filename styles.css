@@ -41,7 +41,7 @@ button{
     border-radius: 10px;
 }
 .button-2{
-    background-color:#0a90ae;
+    background-color:#1f2937;
     color:#e6eefa;
     padding: 14px 20px;
 }
@@ -118,8 +118,13 @@ ul{
     flex-direction: column;
     align-items: center;
 }
-.pic{
+.pic,
+.indexPic{
     border-radius: 25px;
+    max-height:400px;
+}
+.indexPic{
+    height:300px
 }
 .quote{
     background-color: #E7DED9;
@@ -146,7 +151,7 @@ ul{
 }
 .sign-in-content{
     flex:1;
-    background-color: #066020;
+    background-color: #4F9292;
     border-radius: 25px;
     padding: 40px 0;
     display: flex;
